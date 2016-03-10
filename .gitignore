@@ -1,5 +1,5 @@
 vendor/
 bin/
-
+nbproject/
 composer.phar
 composer.lock

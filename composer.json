@@ -19,12 +19,20 @@
             "homepage": "http://github.com/Sylius/Sylius/contributors"
         }
     ],
+    "repositories": 
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/brendas-jomedia/Promotion"
+        }
+
+    ],
     "require": {
         "php": "^5.5.9|^7.0",
 
         "jms/translation-bundle": "1.1.*",
         "stof/doctrine-extensions-bundle": "~1.1",
-        "sylius/promotion": "0.18.*",
+        "sylius/promotion": "dev-doctrine-version-change",
         "sylius/registry": "0.18.*",
         "sylius/money-bundle": "0.18.*",
         "sylius/resource-bundle": "0.18.*",
@@ -32,7 +40,7 @@
     },
     "require-dev": {
         "phpspec/phpspec": "^2.4",
-        "doctrine/orm": "^2.4.8,<2.5",
+        "doctrine/orm": "^2.4.8",
         "symfony/form": "^2.7",
         "symfony/validator": "^2.7"
     },
